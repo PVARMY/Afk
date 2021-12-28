@@ -1,15 +1,16 @@
 {
-  "name": "afk-bot",
-  "version": "1.1.0",
-  "description": "Afk bot for minecraft servers.",
-  "main": "bot.js",
+  "name": "afkbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "urFate",
-  "license": "MIT",
+  "author": "MannuG",
+  "license": "ISC",
   "dependencies": {
-    "mineflayer": "^3.11.0",
-    "mineflayer-pathfinder": "^1.2.3"
+    "config": "^3.3.3",
+    "fs": "0.0.1-security",
+    "mineflayer": "^2.37.1"
   }
 }
